@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <?php
 
-include "assests/inc/head.php";
-include "assests/inc/header.php";
+include "assets/inc/head.php";
+include "assets/inc/header.php";
 
 ?>
 
@@ -10,5 +10,5 @@ include "assests/inc/header.php";
 </body>
 
 <?php
-include "assests/inc/footer.php";
+include "assets/inc/footer.php";
 ?>
