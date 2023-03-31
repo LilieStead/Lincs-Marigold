@@ -9,7 +9,7 @@ include "assets/inc/header.php";
 
 <body>
     <div>
-        <h1 class="title">Our Rooms</h1>
+        <h1 class="title">Our Rooms!</h1>
         <p class="smalltxt" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
             incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et. Facilisi cras fermentum
              odio eu feugiat pretium nibh ipsum consequat. </p>

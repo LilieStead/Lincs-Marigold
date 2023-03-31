@@ -293,6 +293,37 @@ footer {
 /* Contact form */
 
 #contactdiv{
-  background-color: #69140e;
+  line-height: 1.5;
+  margin: auto;
   width: 70%;
+}
+
+#contactdiv form{
+  background-color: #69140e;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#contactdiv input[type=text], select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+ /*Centering all the content on contact page */
+
+.center{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 70vh;
+}
+ 
+#contactform label{
+  font-family: title;
+  font-size: 20px;
+  color: #d58936;
 }
