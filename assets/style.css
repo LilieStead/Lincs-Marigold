@@ -295,7 +295,7 @@ footer {
 #contactdiv{
   line-height: 1.5;
   margin: auto;
-  width: 70%;
+  width: 45%;
 }
 
 #contactdiv form{
@@ -313,13 +313,44 @@ footer {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
+#contactdiv label{
+  display: block;
+}
+
+.flexdiv{
+  display: flex;
+  width: 100%;
+}
+#namediv{
+  margin-left: 5%;
+  width: 50%;
+}
+
+#emaildiv{
+  width: 65%;
+}
+
+
+#titlediv{
+  width: 10%;
+}
+
+textarea{
+  resize: none;
+}
+
+
+/* .halfspace{
+  width: 70% !important;
+} */
  /*Centering all the content on contact page */
 
 .center{
   display: flex;
   justify-content:center;
   align-items: center;
-  height: 70vh;
+  height: 65vh;
 }
  
 #contactform label{
@@ -327,3 +358,4 @@ footer {
   font-size: 20px;
   color: #d58936;
 }
+
