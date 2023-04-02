@@ -30,9 +30,11 @@
  /* body */
 body {
   background-color: #FAF9F6;
+  /* stops the footer blocking some content on pages */
+  margin-bottom: 100px;
 }
 
- /* colours 
+/* colours 
 3c1518
 69140e
 a44200
@@ -295,7 +297,7 @@ footer {
 #contactdiv{
   line-height: 1.5;
   margin: auto;
-  width: 45%;
+  width: 30%;
 }
 
 #contactdiv form{
@@ -324,7 +326,7 @@ footer {
 }
 #namediv{
   margin-left: 5%;
-  width: 50%;
+  width: 65%;
 }
 
 #emaildiv{
@@ -333,17 +335,13 @@ footer {
 
 
 #titlediv{
-  width: 10%;
+  width: 15%;
 }
 
 textarea{
   resize: none;
 }
 
-
-/* .halfspace{
-  width: 70% !important;
-} */
  /*Centering all the content on contact page */
 
 .center{
@@ -358,4 +356,24 @@ textarea{
   font-size: 20px;
   color: #d58936;
 }
+
+@media screen and (max-width: 1300px) {
+  #contactform textarea {
+    width: 50%;
+  }
+  
+}
+
+
+#overlay {
+  position: fixed;
+  display: none;
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+  opacity: 50%;
+  cursor: pointer;
+  pointer-events: none; 
+}
+
 
