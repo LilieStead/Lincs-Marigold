@@ -235,7 +235,7 @@ footer {
 }
 
 
-/* Rooms page */
+/* Rooms page & function room page */
 
 /* images on page */
 
@@ -363,7 +363,7 @@ textarea{
   }
   
 }
-
+/* overlay settings */
 
 #overlay {
   position: fixed;
@@ -376,4 +376,21 @@ textarea{
   pointer-events: none; 
 }
 
+.overlaybutton {
+  background-color: #69140e;
+  padding: 5px;
+  font-family: smalltxt;
+  color: #dda15e;
+  border: none;
+  width: 20%;
+  transition: 0.3s;
+}
 
+#overlaysettings{
+  width: 45%;
+}
+
+.overlaybutton:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}

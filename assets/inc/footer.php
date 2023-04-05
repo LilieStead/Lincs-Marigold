@@ -3,8 +3,10 @@
 <p class = "footertext" > &copy;<span id="copyrightyear"></span> Lincs Marigold. All Rights Reserved </p>
 
 <!-- <h2>CLICK TO SEE OVERLAY</h2> -->
-<button onclick="showoverlay()">Open Over</button>
-<button onclick="hideoverlay()">hide Over</button>
+<div id="overlaysettings">
+  <button class="overlaybutton" onclick="showoverlay()">Open Overlay</button>
+  <button class="overlaybutton" onclick="hideoverlay()">Hide Overlay</button>
+</div>
 
 </footer>
 
