@@ -34,12 +34,12 @@ include "assets/inc/header.php";
                 <div class="querydiv">
                     <label for="query">Query</label>
                     <!-- Each key press will get value of each character in the text area  -->
-                    <textarea name="query" id="query" cols="70" rows="10" 
+                    <textarea name="query" id="query"  
                     maxlength="255" onkeyup="charcountupdate(this.value)"></textarea> 
                 </div>
                 <!-- Outputs used characters  -->
                 <span id=counter></span>
-                <input type="submit">
+                <input id ="formbutton" type="submit">
             </form>
             <p class="smalltxt"><i class="fa fa-phone" aria-hidden="true"></i> alliteratively call: 07526292791 </p>
         </div>

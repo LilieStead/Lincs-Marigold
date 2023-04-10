@@ -55,7 +55,6 @@ f2f3ae
 
 .header a {
   float: left;
-  color: #FAF9F6;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -63,7 +62,6 @@ f2f3ae
   line-height: 25px;
   border-radius: 4px;
   font-family: smalltxt;
-  transition: 0.3s;
 }
 
 .header a.logo {
@@ -73,8 +71,13 @@ f2f3ae
   font-size: 35px;
   color: #d58936;
 }
+.headerright p{
+  color: #FAF9F6;
+  transition: 0.3s;
 
-.headerright a:hover {
+}
+
+.headerright p:hover {
   color: #dda15e;
   transition: 0.3s;
 }
@@ -304,6 +307,7 @@ footer {
   background-color: #69140e;
   border-radius: 5px;
   padding: 20px;
+  margin: auto;
 }
 
 #contactdiv input[type=text], select{
@@ -335,12 +339,60 @@ footer {
 
 
 #titlediv{
-  width: 15%;
+  width: 20%;
 }
 
-textarea{
+#contactform textarea{
   resize: none;
+  width: 90%;
+  height: 100px;
 }
+
+
+#formbutton{
+  background-color: #d58936;
+  border: none;
+  width: 140px;
+  height: 40px;
+  font-family: smalltxt;
+  font-size: 15px;
+  color: #FAF9F6;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 2%;
+}
+
+#formbutton:hover{
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 1500px){
+  #contactdiv form{
+    width: 100%;
+  }
+  #contactdiv{
+    width: 70%;
+  }
+  #namediv{
+    width: 70%;
+  }
+  #titlediv{
+    width: 35%;
+  }
+  #emaildiv{
+    width: 75%;
+  }
+  #contactform textarea{
+    width: 80%;
+    
+  }
+}
+
+
+
 
  /*Centering all the content on contact page */
 
@@ -357,12 +409,6 @@ textarea{
   color: #d58936;
 }
 
-@media screen and (max-width: 1300px) {
-  #contactform textarea {
-    width: 50%;
-  }
-  
-}
 /* overlay settings */
 
 #overlay {
@@ -377,20 +423,26 @@ textarea{
 }
 
 .overlaybutton {
-  background-color: #69140e;
-  padding: 5px;
-  font-family: smalltxt;
-  color: #dda15e;
+  background-color: #d58936;
   border: none;
-  width: 20%;
+  width: 140px;
+  height: 40px;
+  font-family: smalltxt;
+  font-size: 15px;
+  color: #FAF9F6;
   transition: 0.3s;
+  cursor: pointer;
+  border-radius: 2%;
 }
 
 #overlaysettings{
-  width: 45%;
+  width: 35%;
+  margin-left: 5px;
 }
 
 .overlaybutton:hover {
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
   transform: translateY(-0.25em);
+  font-size: 17px;
+  transition: 0.3s;
 }
