@@ -37,17 +37,19 @@ include "assets/inc/header.php";
                     <textarea name="query" id="query"  
                     maxlength="255" onkeyup="charcountupdate(this.value)"></textarea> 
                 </div>
+                <input id ="formbutton" type="submit">
                 <!-- Outputs used characters  -->
                 <span id=counter></span>
-                <input id ="formbutton" type="submit">
-            </form>
+            </form>              
             <p class="smalltxt"><i class="fa fa-phone" aria-hidden="true"></i> alliteratively call: 07526292791 </p>
+            
         </div>
     </div>
+    
     <?php
     include "assets/inc/footer.php";
     ?>
-
+    
 </body>
 
 
