@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <?php
-
 include "assets/inc/head.php";
-?>
-<div id="overlay"></div>
-<?php
 include "assets/inc/header.php";
 ?>
+
 <body>
     <!-- Form to send users querys -->
     <div class="center">
@@ -17,6 +14,7 @@ include "assets/inc/header.php";
                     <div id="titlediv">
                         <label for="title">Title</label>
                         <select name="title" id="title" class="halfspace">
+                            <option selected value="..." hidden>...</option>
                             <option value="Mr">Mr</option>
                             <option value="Miss">Miss</option>
                             <option value="Mrs">Mrs</option>
@@ -41,7 +39,7 @@ include "assets/inc/header.php";
                 <!-- Outputs used characters  -->
                 <span id=counter></span>
             </form>              
-            <p class="smalltxt"><i class="fa fa-phone" aria-hidden="true"></i> alliteratively call: 07526292791 </p>
+            <p class="smalltxt"><i class="fa fa-phone" aria-hidden="true"></i> alternatively call: 07526292791 </p>
             
         </div>
     </div>
