@@ -3,13 +3,15 @@
   <!-- used to show copyright information  -->
 <p class = "footertext" > &copy;<span id="copyrightyear"></span> Lincs Marigold. All Rights Reserved </p>
 
+<div id="footercontent">
 
+  <!-- Aa div used to store buttons -->
+  <div id="overlaysettings">
+    <!-- buttons used to open and close overlay -->
+    <button class="overlaybutton" onclick="showoverlay()">Open Overlay</button>
+    <button class="overlaybutton" onclick="hideoverlay()">Hide Overlay</button>
+  </div>
 
-<!-- Aa div used to store buttons -->
-<div id="overlaysettings">
-  <!-- buttons used to open and close overlay -->
-  <button class="overlaybutton" onclick="showoverlay()">Open Overlay</button>
-  <button class="overlaybutton" onclick="hideoverlay()">Hide Overlay</button>
 </div>
 
 </footer>
