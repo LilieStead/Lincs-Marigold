@@ -185,10 +185,6 @@ footer {
   color: #3E3C3C;
   font-family: smalltxt;
 }
-  footercontent{
-  display: flex;
-  flex-wrap: wrap;
-  }
 /* changing the style of info text on website */
 
 @media screen and (max-width: 850px) { 
