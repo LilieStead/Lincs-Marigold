@@ -424,9 +424,45 @@ footer {
     
   }
 }
+/* Valdation */
+form .section{
+  position: relative;
+  size: 10px;
+}
 
+form .section .fa-check-circle, form .section .fa-times-circle{
+  visibility: hidden;
+  position: absolute;
+  right: 10px;
+  top: 3px;
+} 
 
+form .section.success input, form .section.success textarea {
+  border: 2px solid #0CCE6B;
+}
 
+form .section.section.success .fa-check-circle{
+  visibility: visible;
+  color:#0CCE6B ;
+}
+
+form .section.error input, form .section.error textarea {
+  border: 2px solid #fb3640;
+}
+
+form .section.error p{
+  visibility: visible;
+  padding: 5px;
+}
+
+form .section.section.error .fa-times-circle{
+  visibility: visible;
+  color:#fb3640;
+}
+
+form .section i {
+  margin-top: 55px;
+}
 
  /*Centering all the content on contact page */
 

@@ -9,7 +9,7 @@ include "assets/inc/header.php";
     <div class="center">
         <div id="contactdiv">
             <h1 class="title">Contact us here!</h1>
-            <form id="contactform" action="assets/proc/sendformprocess.php" onsubmit="return validation();" method="post">
+            <form id="contactform" action="assets/proc/sendformprocess.php" method="post">
                 <div class="flexdiv">
                     <div id="titlediv" class="section">
                         <label for="title">Title</label>
@@ -39,7 +39,7 @@ include "assets/inc/header.php";
                     maxlength="255" onkeyup="charcountupdate(this.value)"></textarea> 
                     <?php include "assets/inc/validationicons.php";?>
                 </div>
-                <input id ="formbutton" type="submit">
+                <input id ="formbutton" onclick="validation(), tareaVal();" type="submit">
                 <!-- Outputs used characters  -->
                 <span id=counter></span>
             </form>              
@@ -47,7 +47,8 @@ include "assets/inc/header.php";
             
         </div>
     </div>
-    
+    <!-- onsubmit="tareaVal()" -->
+    <!-- onsubmit="return validation();, return tareaVal();" -->
     <?php
     include "assets/inc/footer.php";
     ?>
@@ -58,6 +59,7 @@ include "assets/inc/header.php";
 
 <!-- Finds java script to count charters in text area-->
 <script src="assets/js/wordcounter255.js"></script>
+
 <script>
     function validation() {
         var valid = true;
@@ -79,7 +81,7 @@ include "assets/inc/header.php";
 
         var nameerror = null;
         var name = namesection.querySelector('input').value;
-        if (name =""){
+        if (name == ""){
             nameerror = "You must enter your name";
         }
         showerror(namesection, nameerror);
@@ -97,32 +99,41 @@ include "assets/inc/header.php";
             valid = false;
         }
         
-        var queryerror = null;
-        var query = querysection.querySelector('textarea').value;
-        if (query ==""){
-            queryerror = "You need to enter a query";
-        } else if (query.length < 20){
-            queryerror = "Your query needs to be longer than 20 characters";
-        }
+        // var queryerror = null;
+        // var query = querysection.getElementById('query').required = true;
+        // if (query ==""){
+        //     queryerror = "You need to enter a query";
+        // } else if (query.length < 20){
+        //     queryerror = "Your query needs to be longer than 20 characters";
+        // }
 
-        showerror(querysection, queryerror);
-        if (queryerror != null){
-            valid = false
-        }
+        // showerror(querysection, queryerror);
+        // if (queryerror != null){
+        //     valid = false
+        // }
+
         
+
+
+
+
+
+
+        return valid;
+    }
+
+    function tareaVal() {
+        document.getElementById("query").required = true;
     }
 
     function showerror(section, error){
         if (error != null){
             section.querySelector('p').innerHTML = error;
             section.classList = 'section error';
+            return false;
         } else {
             section.classList = 'section success';
         }
     }
-
-
-
-
 
 </script>
