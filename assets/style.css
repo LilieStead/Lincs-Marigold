@@ -114,6 +114,15 @@ f2f3ae
   max-height: 50vh;
 }
 
+#imgoverlay{
+  background-color: rgba(62, 60, 60, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 #defaultimg {
   position: relative;
   text-align: center;
@@ -321,7 +330,7 @@ footer {
 #contactdiv{
   line-height: 1.5;
   margin: auto;
-  width: 30%;
+  width: 40%;
 }
 
 #contactdiv form{
@@ -402,6 +411,19 @@ footer {
   font-size: 17px;
   transition: 0.3s;
 }
+
+/* validation */
+
+.error{
+  padding-bottom: 7px;
+}
+
+.error p{
+  font-family: smalltxt;
+  font-size: 18px;
+  color: 	#bebbbb;
+}
+
 /* changes the siz of all inputs divs based on screen size */
 @media screen and (max-width: 1500px){
   #contactdiv form{

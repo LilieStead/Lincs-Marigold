@@ -21,20 +21,26 @@ include "assets/inc/header.php";
                             <option value="Mrs">Mrs</option>
                         </select>
                         <!-- shows errors -->
-                        <span id = "titleerror" class = "error"></span>
+                        <div class = "error">
+                            <p id = "titleerror"></p>
+                        </div>
                     </div>
                     <div id="namediv">
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name" class="halfspace" maxlength="30" autocomplete="given-name">
                          <!-- shows errors -->
-                        <span id = "nameerror" class = "error"></span>
+                        <div class = "error">
+                            <p id = "nameerror"></p>
+                        </div>
                     </div>
                 </div>
                 <div id="emaildiv">
                     <label for="email">Email</label>
                     <input type="text" id="email" name="email" maxlength="50" autocomplete="email">
                      <!-- shows errors -->
-                    <span id = "emailerror" class = "error"></span>
+                    <div class = "error">
+                        <p id= "emailerror"></p>
+                    </div>
                 </div>
                 <div class="querydiv">
                     <label for="query">Query</label>
@@ -42,7 +48,9 @@ include "assets/inc/header.php";
                     <textarea name="query" id="query"  
                     maxlength="255" onkeyup="charcountupdate(this.value)"></textarea> 
                      <!-- shows errors -->
-                    <span id = "queryerror" class = "error"></span>
+                    <div class = "error">
+                        <p id = "queryerror"></p>
+                    </div>
                 </div>
                 <input id ="formbutton" type="submit">
                 <!-- Outputs used characters  -->

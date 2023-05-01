@@ -6,7 +6,8 @@ include "assets/inc/header.php";
 
 <body>
     <div id= "defaultimg">
-        <img id= "homeimg" src="assets/img/defaultimg1.jpg" alt="Hotel Bar">
+        <div id="imgoverlay"></div>
+            <img id= "homeimg" src="assets/img/defaultimg1.jpg" alt="Hotel Bar">
         <h1 id= "imgtext"> Welcome to Lincs Marigold Hotel & Spa</h1>
     </div>
     <div class ="center-contents">
