@@ -81,6 +81,7 @@ f2f3ae
   color: #dda15e;
   transition: 0.3s;
 }
+  
 
 .headerright {
   float: right;
@@ -96,6 +97,10 @@ f2f3ae
   
   .headerright {
     float: none;
+  }
+
+  .headerright p{
+    text-align: center;
   }
 }
 /* image on home page */
@@ -148,7 +153,7 @@ f2f3ae
     max-height: 40vh !important;
   }
   #imgtext {
-    font-size: 25px;
+    font-size: 35px;
   }
 
 
@@ -199,7 +204,7 @@ footer {
 @media screen and (max-width: 850px) { 
 
   #aboutinfo h1{
-    font-size: 25px;
+    font-size: 35px;
   }
 }
 
@@ -225,6 +230,8 @@ footer {
   font-size: 40px;
   color: #d58936;
   text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 /*Small snippets of information */
@@ -527,3 +534,13 @@ footer {
 
 }
 
+.servicediv{
+  width: 65%;
+  display: flex;
+  margin-top: 30px;
+  align-self: center;
+}
+
+.servicediv p{
+  width: 70%;
+}

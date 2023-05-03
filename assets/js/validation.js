@@ -19,7 +19,7 @@ contactform.addEventListener('submit', (e) => {
     // looks to see if user entered a name 
     if (name.value == '' || name.value == null) {
         e.preventDefault()
-        nameerror.innerText = ('An name is required')
+        nameerror.innerText = ('A name is required')
     }else{
         nameerror.innerText = (null)
     }
@@ -29,17 +29,17 @@ contactform.addEventListener('submit', (e) => {
         emailerror.innerText = ("An email is required")
     }else if (!email.value.match(emailformat)){
         e.preventDefault()
-        emailerror.innerText = ("An valid email is required")
+        emailerror.innerText = ("A valid email is required")
     }else{
         emailerror.innerText = (null)
     }
     // looks to see if user entered a query
     if (query.value == '' ||query.value == null ) {
         e.preventDefault()
-        queryerror.innerText = ("An query is required")
+        queryerror.innerText = ("A query is required")
     }else if(query.value.length < 20){
         e.preventDefault()
-        queryerror.innerText = ("A query of over a length of 20 charters is required ")
+        queryerror.innerText = ("A query of over a length of 20 characters is required ")
     }else{
         queryerror.innerText = (null)
     }
