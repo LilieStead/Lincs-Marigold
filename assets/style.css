@@ -481,7 +481,8 @@ footer {
   background-color: lightblue;
   opacity: 50%;
   cursor: pointer;
-  pointer-events: none; 
+  pointer-events: none;
+  z-index: 1;
 }
 
 /* styling for the buttons used to turn on and off the overlay */
@@ -535,12 +536,25 @@ footer {
 }
 
 .servicediv{
-  width: 65%;
-  display: flex;
-  margin-top: 30px;
-  align-self: center;
+  position: relative;
+  text-align: center;
+  width: 100%;
 }
 
-.servicediv p{
-  width: 70%;
+.servicetxt{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.serviceimg{
+  width: 60%;
+  border-radius: 25px;
+}
+
+.vh{
+  height: 20vh;
 }

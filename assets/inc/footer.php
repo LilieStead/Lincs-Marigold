@@ -30,10 +30,6 @@
     document.getElementById("copyrightyear").innerHTML = new Date().getFullYear();
   
 
-    if (document.cookie.indexOf("show_overlay=true") !== -1) {
-    // display the overlay
-    showoverlay();
-  }
   
 </script>
 
