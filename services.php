@@ -24,10 +24,10 @@ include "assets/inc/header.php";
             </div>
         </div>
         <div class="vh"></div>
-        <div class="servicediv">
-            <img class="serviceimg" src="assets/img/spa.jpg" alt="">
+        <div class="servicediv fade">
+            <img class="serviceimg" src="assets/img/pool.jpg" alt="">
             <div class="servicetxt">
-                <h1>Spa</h1>
+                <h1>Pool</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. Int
                         eger quis auctor elit sed vulputate mi sit amet. Arcu 
@@ -39,10 +39,10 @@ include "assets/inc/header.php";
             </div>
         </div>
         <div class="vh"></div>
-        <div class="servicediv">
-            <img class="serviceimg" src="assets/img/spa.jpg" alt="">
+        <div class="servicediv fade">
+            <img class="serviceimg" src="assets/img/sauna.jpg" alt="">
             <div class="servicetxt">
-                <h1>Spa</h1>
+                <h1>Sauna</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. Int
                         eger quis auctor elit sed vulputate mi sit amet. Arcu 
@@ -54,10 +54,10 @@ include "assets/inc/header.php";
             </div>
         </div>
         <div class="vh"></div>
-        <div class="servicediv">
-            <img class="serviceimg" src="assets/img/spa.jpg" alt="">
+        <div class="servicediv fade">
+            <img class="serviceimg" src="assets/img/steamroom.jpg" alt="">
             <div class="servicetxt">
-                <h1>Spa</h1>
+                <h1>Steam room</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. Int
                         eger quis auctor elit sed vulputate mi sit amet. Arcu 
@@ -74,3 +74,5 @@ include "assets/inc/header.php";
 <?php
 include "assets/inc/footer.php";
 ?>
+
+<script src="assets/js/scrollfade.js"></script>

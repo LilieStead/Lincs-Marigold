@@ -285,8 +285,9 @@ footer {
 
 
 .img{
-  height: 250px;
-  width: 300px;
+  height: 85%;
+  width: 60%;
+  border-radius: 25px;
 }
 .imgdiv{
   width: 65%;
@@ -315,16 +316,13 @@ footer {
   }
   .imgdiv {
     flex-direction: column;
-    width: 60%;
+    width: 100%;
     justify-content: center !important;
     align-items: center !important;
     
   }
   .txtleft {
     padding: 0 0;
-  }
-  .img{
-    width: auto;
   }
   .txtleft .txtright{
     text-align: center;
@@ -535,6 +533,8 @@ footer {
 
 }
 
+
+/* services page */
 .servicediv{
   position: relative;
   text-align: center;
@@ -557,4 +557,48 @@ footer {
 
 .vh{
   height: 20vh;
+}
+
+.servicetxt p{
+  font-family: smalltxt;
+  color: #ccc;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+
+.servicetxt h1{
+  font-family: title;
+  color: #d58936;
+}
+
+
+
+.img-overlay {
+  position: relative;
+  display: inline-block;
+}
+@media screen and (max-width: 800px){
+  .serviceimg{
+    width: 85%;
+    height: 100%;
+  }
+  .servicetxt h1{
+    font-size: 30px;
+  }
+  .servicetxt p{
+    font-size: 14px;
+  }
+}
+
+/* fade in for the services on services page */
+.fade{
+  opacity: 0;
+  transition: 1.3s all ease;
+
+}
+
+.fade.appear{
+  opacity: 1;
+
 }

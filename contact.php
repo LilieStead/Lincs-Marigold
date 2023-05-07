@@ -60,8 +60,6 @@ include "assets/inc/header.php";
             
         </div>
     </div>
-    <!-- onsubmit="tareaVal()" -->
-    <!-- onsubmit="return validation();, return tareaVal();" -->
     <?php
     include "assets/inc/footer.php";
     ?>
