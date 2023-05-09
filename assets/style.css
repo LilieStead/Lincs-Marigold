@@ -578,7 +578,7 @@ footer {
   position: relative;
   display: inline-block;
 }
-@media screen and (max-width: 800px){
+@media (max-width: 800px){
   .serviceimg{
     width: 85%;
     height: 100%;
@@ -601,4 +601,20 @@ footer {
 .fade.appear{
   opacity: 1;
 
+}
+
+/* query sent page */
+
+#querysent p{
+  font-family: smalltxt;
+  font-size: 20px;
+  color: #555;
+  text-align: center;
+}
+
+#querysent h1{
+  font-family: title;
+  font-size: 40px;
+  color: #d58936;
+  text-align: center;
 }
