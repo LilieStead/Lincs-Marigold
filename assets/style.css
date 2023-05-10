@@ -637,3 +637,35 @@ footer {
   color: #d58936;
   text-align: center;
 }
+
+
+/* gallery page */
+
+#bigimg img{
+  width: 1000px;
+  height:700px;
+  margin-top: 10vh;
+}
+
+#bigimg p{
+  width:1000px;
+  height:auto;
+}
+
+.galleryimgsmall{
+  width: 100%;
+  height: 30vh;
+}
+
+#smallimg{
+  width:100%;
+  height:30vh;
+  float:left;
+  margin-top: 20%;
+  text-align: center;
+}
+
+.smallimgdiv{
+  width: 35%;
+  height: 30vh
+}
