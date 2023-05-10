@@ -47,7 +47,7 @@ f2f3ae
 
  /* header style */
 
- .header {
+ header {
   overflow: hidden;
   background-color: #69140e;
   padding: 20px 10px;
@@ -467,7 +467,7 @@ footer {
   color: #d58936;
 }
 
-/* overlay settings */
+/* overlay settings */ 
 
 
 /* used to style the overlay */
@@ -476,7 +476,7 @@ footer {
   display: none;
   height: 100%;
   width: 100%;
-  background-color: lightblue;
+  background-color: #add8e6;
   opacity: 50%;
   cursor: pointer;
   pointer-events: none;
@@ -497,6 +497,21 @@ footer {
   cursor: pointer;
   border-radius: 2%;
   margin-bottom: 13px;
+  margin-right: 10px;
+}
+
+#colourchange{
+  background-color: #3E3C3C;
+  border: none;
+  width: 90px;
+  height: 40px;
+  font-family: smalltxt;
+  font-size: 15px;
+  color: #FAF9F6;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 2%;
+  margin-bottom: 13px;
 }
 
 /* styling of the div used to hold overlay buttons */
@@ -504,6 +519,7 @@ footer {
 #overlaysettings{
   width: 35%;
   margin-left: 5px;
+  display: flex;
 }
 /* hover styling for buttons */
 .overlaybutton:hover {
@@ -528,6 +544,9 @@ footer {
     height: 90px;
   }
   .overlaybutton{
+    margin-right: 7px;
+  }
+  #colourchange{
     margin-right: 7px;
   }
 

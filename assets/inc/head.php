@@ -1,4 +1,9 @@
 <head>
+    <html lang="en">
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- links the css to each webpage -->
     <link rel="stylesheet" type="text/css" href="assets/style.css"/>
     <!-- gets all icons the website uses form font awesome  -->
