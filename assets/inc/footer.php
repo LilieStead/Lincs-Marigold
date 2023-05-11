@@ -18,15 +18,7 @@
 
 
 <script>
-  overlayActive = false;
-    // used to display overlay 
-    function showoverlay() {
-     document.getElementById("overlay").style.display = "block";
-  }
-//   used to get rid of overlay
-  function hideoverlay() {
-      document.getElementById("overlay").style.display = "none";
-  }
+  let overlayActive = false;
 
   function toggleOverlay() {
     

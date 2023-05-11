@@ -10,7 +10,7 @@ include "assets/inc/header.php";
             <img id= "homeimg" src="assets/img/defaultimg1.jpg" alt="Hotel Bar">
         <h1 id= "imgtext"> Welcome to Lincs Marigold Hotel & Spa</h1>
     </div>
-    <div class ="center-contents">
+    <div class ="centercontents">
         <div id= "aboutinfo" >
             <h1>About us</h1>
             <p class="smalltxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 

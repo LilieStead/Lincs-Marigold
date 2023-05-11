@@ -12,38 +12,47 @@ include "assets/inc/header.php";
             incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et. Facilisi cras fermentum
              odio eu feugiat pretium nibh ipsum consequat. </p>
              <!-- div stores all content that belongs to the first room -->
-        <div class="flex-container">
+        <div class="flexcontainer">
             <div class="imgdiv">
                 <img class="img"src="assets/img/functionroom1.jpg" alt="basic hotel room"> 
-                <p class="smalltxt txtleft" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <div class="roomtxt">
+                    <h1>Weddings</h1>
+                    <p class="smalltxt txtleft" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ipsum dolor sit amet consectetur adipiscing elit ut aliquam purus. Sem viverra aliquet eget sit amet tellus cras adipiscing 
                     enim. Id aliquet risus feugiat in. Turpis egestas maecenas pharetra convallis posuere morbi.
                 
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ipsum dolor sit amet consectetur adipiscing elit ut aliquam purus. Sem viverra aliquet eget sit amet tellus cras adipiscing 
                     enim. Id aliquet risus feugiat in. Turpis egestas maecenas pharetra convallis posuere morbi</p>
+                </div>
             </div>
             <!-- div stores all content that belongs second room -->
             <div class="imgdiv" id= "imgrightdiv">
-                <p class="smalltxt txtright" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <div class="roomtxt">
+                    <h1>Training</h1>
+                    <p class="smalltxt txtright" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ipsum dolor sit amet consectetur adipiscing elit ut aliquam purus. Sem viverra aliquet eget sit amet tellus cras adipiscing 
                     enim. Id aliquet risus feugiat in. Turpis egestas maecenas pharetra convallis posuere morbi.
                 
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ipsum dolor sit amet consectetur adipiscing elit ut aliquam purus. Sem viverra aliquet eget sit amet tellus cras adipiscing 
                     enim. Id aliquet risus feugiat in. Turpis egestas maecenas pharetra convallis posuere morbi</p>
+                </div>
                 <img class="img"src="assets/img/functionroom2.jpg" alt="business hotel room">
             </div>
             <!-- div stores all content that belongs third room -->
             <div class="imgdiv">
                 <img class="img"src="assets/img/functionroom3.jpg" alt="basic hotel room"> 
-                <p class="smalltxt txtleft" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <div class="roomtxt">
+                    <h1>Fine dining</h1>
+                    <p class="smalltxt txtleft" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ipsum dolor sit amet consectetur adipiscing elit ut aliquam purus. Sem viverra aliquet eget sit amet tellus cras adipiscing 
                     enim. Id aliquet risus feugiat in. Turpis egestas maecenas pharetra convallis posuere morbi.
                 
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ipsum dolor sit amet consectetur adipiscing elit ut aliquam purus. Sem viverra aliquet eget sit amet tellus cras adipiscing 
                     enim. Id aliquet risus feugiat in. Turpis egestas maecenas pharetra convallis posuere morbi</p>
+                </div>
             </div>
             
             
