@@ -58,17 +58,17 @@ f2f3ae
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 20px; 
+  font-size: 1.2em; 
   line-height: 25px;
   border-radius: 4px;
   font-family: smalltxt;
 }
 
 .header a.logo {
-  font-size: 25px;
   font-weight: bold;
   font-family: title;
-  font-size: 35px;
+  font-size: 2.5em;
+  line-height: 40px;
   color: #d58936;
 }
 .headerright p{
@@ -93,6 +93,10 @@ f2f3ae
     float: none;
     display: block;
     text-align: left;
+  }
+
+  .header a.logo{
+    font-size: 2em;
   }
   
   .headerright {
@@ -140,7 +144,7 @@ f2f3ae
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: title;
-  font-size: 40px;
+  font-size: 2.5em;
 }
 /* changing the image size base on screen size */
 
@@ -153,7 +157,7 @@ f2f3ae
     max-height: 40vh !important;
   }
   #imgtext {
-    font-size: 35px;
+    font-size: 1.5em !important;
   }
 
 
@@ -185,7 +189,7 @@ footer {
   font-family: title;
   color: #d58936;
   text-decoration: underline;
-  font-size: 45px;
+  font-size: 2em;
   text-align: center;
 
 }
@@ -204,7 +208,7 @@ footer {
 @media screen and (max-width: 850px) { 
 
   #aboutinfo h1{
-    font-size: 35px;
+    font-size: 1.9em;
   }
 }
 
@@ -227,7 +231,7 @@ footer {
 /* Page titles*/
 .title{
   font-family: title;
-  font-size: 40px;
+  font-size: 2.3em;
   color: #d58936;
   text-align: center;
   margin-bottom: 20px;
@@ -238,7 +242,7 @@ footer {
 
 .smalltxt{
   color: #878282;
-  font-size: 20px;
+  font-size: 1.1em;
   text-align: center;
   padding-bottom: 17px;
 
@@ -248,10 +252,7 @@ footer {
 
 @media screen and (max-width: 850px) {
   .title{
-    font-size: 25px;
-  }
-  .smalltxt{
-    font-size: 15px;
+    font-size: 2em;
   }
 }
 
@@ -299,7 +300,7 @@ footer {
   padding-left: 2%;
   margin-top: 15px;
   padding-right: 2%;
-  font-size: 20px;
+  font-size: 1.1em;
 }
 
 .imgdiv h1{
@@ -341,11 +342,6 @@ footer {
   }
 }
 
-@media screen and (max-width: 800px){
-  .imgdiv p{
-    font-size: 17px;
-  }
-}
 
 
 /* Contact form styling*/
@@ -374,7 +370,7 @@ footer {
   border-radius: 4px;
   box-sizing: border-box;
   font-family: smalltxt;
-  font-size: 15px;
+  font-size: 1.1em;
 }
 
 #contactdiv label{
@@ -404,13 +400,13 @@ footer {
   width: 90%;
   height: 100px;
   font-family: smalltxt;
-  font-size: 15px;
+  font-size: 1.1em;
 }
 /* styling for the area that counts the amount of charters */
 #counter{
   float: right;
   margin-right: 25px;
-  font-size: 20px;
+  font-size: 1.1em;
   font-family: smalltxt;
   color: #FAF9F6;
 }
@@ -421,7 +417,7 @@ footer {
   width: 140px;
   height: 40px;
   font-family: smalltxt;
-  font-size: 15px;
+  font-size: 1.1em;
   color: #FAF9F6;
   transition: 0.3s;
   cursor: pointer;
@@ -431,7 +427,7 @@ footer {
 #formbutton:hover{
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
   transform: translateY(-0.25em);
-  font-size: 17px;
+  font-size: 1.2em;
   transition: 0.3s;
 }
 
@@ -443,7 +439,7 @@ footer {
 
 .error p{
   font-family: smalltxt;
-  font-size: 18px;
+  font-size: 1.1em;
   color: 	#bebbbb;
 }
 
@@ -459,7 +455,7 @@ footer {
     width: 70%;
   }
   #titlediv{
-    width: 35%;
+    width: 45%;
   }
   #emaildiv{
     width: 75%;
@@ -481,7 +477,7 @@ footer {
  
 #contactform label{
   font-family: title;
-  font-size: 20px;
+  font-size: 1.6em;
   color: #d58936;
 }
 
@@ -509,7 +505,7 @@ footer {
   width: 140px;
   height: 40px;
   font-family: smalltxt;
-  font-size: 15px;
+  font-size: 1.1em;
   color: #FAF9F6;
   transition: 0.3s;
   cursor: pointer;
@@ -524,7 +520,6 @@ footer {
   width: 90px;
   height: 40px;
   font-family: smalltxt;
-  font-size: 15px;
   color: #FAF9F6;
   transition: 0.3s;
   cursor: pointer;
@@ -543,7 +538,7 @@ footer {
 .overlaybutton:hover {
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
   transform: translateY(-0.25em);
-  font-size: 17px;
+  font-size: 1.2em;
   transition: 0.3s;
 }
 
@@ -599,7 +594,7 @@ footer {
 .servicetxt p{
   font-family: smalltxt;
   color: #ccc;
-  font-size: 20px;
+  font-size: 1.1em;
   padding-top: 5px;
 }
 
@@ -621,10 +616,10 @@ footer {
     height: 100%;
   }
   .servicetxt h1{
-    font-size: 25px;
+    font-size: 2em;
   }
   .servicetxt p{
-    font-size: 14px;
+    font-size: 0.9em;
     width: 100%;
   }
 }
@@ -632,6 +627,9 @@ footer {
 @media (max-width: 755px){
   .servicetxt p{
   width: 82vw !important;
+  }
+  .servicediv{
+    height: 55vh;
   }
 }
 
@@ -651,14 +649,14 @@ footer {
 
 #querysent p{
   font-family: smalltxt;
-  font-size: 20px;
+  font-size: 1.1em;
   color: #555;
   text-align: center;
 }
 
 #querysent h1{
   font-family: title;
-  font-size: 40px;
+  font-size: 2em;
   color: #d58936;
   text-align: center;
 }

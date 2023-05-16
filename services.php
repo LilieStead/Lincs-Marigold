@@ -8,6 +8,7 @@ include "assets/inc/header.php";
 <body>
     <div>
         <h1 class="title">Our services</h1>
+        <!-- stores image, name and service  -->
         <div class="servicediv">
             <img class="serviceimg" src="assets/img/spa.jpg" alt="">
             <div class="servicetxt">
@@ -22,7 +23,9 @@ include "assets/inc/header.php";
                         cursus vitae congue mauris rhoncus aenean vel.</p>
             </div>
         </div>
+        <!-- distances services away from each other  -->
         <div class="vh"></div>
+        <!-- stores image, name and service  -->
         <div class="servicediv fade">
             <img class="serviceimg" src="assets/img/pool.jpg" alt="">
             <div class="servicetxt">
@@ -37,7 +40,9 @@ include "assets/inc/header.php";
                         cursus vitae congue mauris rhoncus aenean vel.</p>
             </div>
         </div>
+         <!-- distances services away from each other  -->
         <div class="vh"></div>
+        <!-- stores image, name and service  -->
         <div class="servicediv fade">
             <img class="serviceimg" src="assets/img/sauna.jpg" alt="">
             <div class="servicetxt">
@@ -52,7 +57,9 @@ include "assets/inc/header.php";
                         cursus vitae congue mauris rhoncus aenean vel.</p>
             </div>
         </div>
+        <!-- distances services away from each other  -->
         <div class="vh"></div>
+        <!-- stores image, name and service  -->
         <div class="servicediv fade">
             <img class="serviceimg" src="assets/img/steamroom.jpg" alt="">
             <div class="servicetxt">

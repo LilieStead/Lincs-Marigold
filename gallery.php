@@ -5,7 +5,7 @@ include "assets/inc/head.php";
 include "assets/inc/header.php";
 ?>
 
-
+<!-- used to select images -->
 <script>
     function changeimage(selectedimg){
       var expandimg = document.getElementById("expandedimage");
@@ -25,8 +25,10 @@ include "assets/inc/header.php";
     <p class="smalltxt">Click on any of the small images bellow to view them above.</p>
     <div class="gallery-container">
       <div id="bigimg">
+        <!-- larger image is displayed here  -->
         <img id="expandedimage" src="assets/img/gallery2.jpg">
       </div>
+      <!-- all images  -->
     <div id="smallimg">
             <div class="smallimgdiv">
                 <img src="assets/img/gallery2.jpg" class="galleryimgsmall" onclick="changeimage(this)">
