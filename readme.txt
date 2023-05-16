@@ -1,1 +1,1 @@
-Please use name the datababse 'lincsmarigold'.
+Please name the datababse 'lincsmarigold' when using XAMPP.
