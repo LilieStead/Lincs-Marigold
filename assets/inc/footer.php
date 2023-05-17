@@ -1,5 +1,5 @@
 
-<footer>
+<footer id=footerid>
     <!-- used to show copyright information  -->
   <p class = "footertext" > &copy;<span id="copyrightyear"></span> Lincs Marigold. All Rights Reserved </p>
 
@@ -9,7 +9,7 @@
     <div id="overlaysettings">
         <!-- buttons used to open and close overlay -->
         <button class="overlaybutton" onclick="toggletext()">Text size</button>
-        <button class="overlaybutton" onclick="toggleoverlay()">Toggle Overlay</button>
+        <button class="overlaybutton" onclick="toggleoverlay()">Overlay</button>
         <input  id="colourchange" onchange="changecolour()" type="color" value="#add8e6">
     </div>
 
@@ -48,14 +48,24 @@
     let originalFontSize;
 let textsize = false;
 
+
+
+
+
+
+
 function toggletext() {
   const paragraphs = document.querySelectorAll("p");
+  var footer = document.querySelector("#footerid");
+
   
   if (!textsize) {
     textsize = true;
+    footer.classList.add("footersize");
     
     // Store the original font size if not already stored
     if (!originalFontSize) {
+      
       originalFontSize = [];
       paragraphs.forEach(p => {
         originalFontSize.push(p.style.fontSize);
@@ -63,13 +73,13 @@ function toggletext() {
     }
     
     paragraphs.forEach(p => {
-      p.style.fontSize = "1.3em"; // Update font size to 20px
+      p.style.fontSize = "1.3em"; // update font size to 20px
     });
   } else {
+    footer.classList.remove("footersize");
     textsize = false;
-    
     paragraphs.forEach((p, index) => {
-      p.style.fontSize = originalFontSize[index]; // Revert to original font size
+      p.style.fontSize = originalFontSize[index]; // revert to original font size
     });
   }
 }
