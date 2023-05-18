@@ -50,7 +50,7 @@ f2f3ae
  header {
   overflow: hidden;
   background-color: #69140e;
-  padding: 20px 10px;
+  padding: 10px 10px;
 }
 
 .header a {
@@ -239,7 +239,7 @@ footer {
   width: 70%;
   position:absolute;
 }
-/* style fo all pages*/
+/* style for all pages*/
 
 /* Page titles*/
 .title{
@@ -310,7 +310,6 @@ footer {
   margin-top: 30px;
 }
 .imgdiv p{
-  /* width: 70%; */
   padding-left: 2%;
   margin-top: 15px;
   padding-right: 2%;
