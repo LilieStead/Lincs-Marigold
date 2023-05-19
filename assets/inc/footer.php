@@ -1,5 +1,5 @@
 
-<footer id=footerid>
+<footer id=footerid onload ="checkcookies()">
     <!-- used to show copyright information  -->
   <p class = "footertext" > &copy;<span id="copyrightyear"></span> Lincs Marigold. All Rights Reserved </p>
 
@@ -19,7 +19,11 @@
 
 
 <script>
+
+
+
   // overlay toggle on and off  
+  
   let overlayActive = false;
 
   
@@ -85,7 +89,7 @@ function toggletext() {
     // for each p tag change the font size 
     paragraphs.forEach(p => {
       p.style.fontSize = "1.3em"; // update font size to 20px
-    });
+    })
   } else {
     // remove the class from the footer as font is back to its original size
     footer.classList.remove("footersize");
@@ -100,4 +104,6 @@ function toggletext() {
 
 
 </script>
+
+
 
