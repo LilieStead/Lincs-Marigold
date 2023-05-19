@@ -7,7 +7,7 @@
     <!-- links the css to each webpage -->
     <link rel="stylesheet" type="text/css" href="assets/style.css"/>
     <!-- gets all icons the website uses form font awesome  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <!-- allows the website to work with mobile dev tools  -->
     <meta name="viewport" content="width=device-width">
     <!-- title of the website -->

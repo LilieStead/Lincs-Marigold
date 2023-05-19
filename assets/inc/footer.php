@@ -7,10 +7,24 @@
 
     <!-- Aa div used to store buttons -->
     <div id="overlaysettings">
+      <div class="flexcolum" >
         <!-- buttons used to open and close overlay -->
-        <button class="overlaybutton" onclick="toggletext()">Text size</button>
-        <button class="overlaybutton" onclick="toggleoverlay()">Overlay</button>
-        <input  id="colourchange" onchange="changecolour()" type="color" value="#add8e6">
+
+        <div>
+          <form action="assets/proc/changestateprocess.php" method="post">
+            <button class="overlaybutton" onclick="toggleoverlay()">Save Overlay</button>
+            <input  id="colourchange" name="colour" onchange="changecolour()" type="color" value="#add8e6">
+          </form>
+        </div>
+
+        <div class="flexrow">
+          <form action="assets/proc/sessionstopprocess.php" method = "post">
+            <input class="overlaybutton" type="submit" value="stop overlay">
+          </form>
+          <button class="overlaybutton" onclick="toggletext()">Text size</button>
+        </div>
+          
+      </div>
     </div>
 
   </div>
@@ -105,5 +119,27 @@ function toggletext() {
 
 </script>
 
+
+
+
+<?php
+
+if(isset($_SESSION['overlaycolour'])){
+
+  ?>
+  <script>
+
+    let overlaycolour = '<?php echo $_SESSION['overlaycolour'];?>';
+    document.getElementById('overlay').style.display="block";
+    document.getElementById('overlay').style.backgroundColor= overlaycolour;
+
+
+  </script>
+  <?php
+
+}
+
+
+?>
 
 

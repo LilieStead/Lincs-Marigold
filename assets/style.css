@@ -85,7 +85,15 @@ f2f3ae
 
 .headerright {
   float: right;
+  margin-top: 10px;
 }
+@media screen and (max-width: 1462px) {
+  .headerright{
+    margin-top: 0;
+  }
+}
+
+
 /* hanging header based on size of screen */
 
 @media screen and (max-width: 850px) {
@@ -162,6 +170,13 @@ f2f3ae
 
 
 }
+
+#overlaysettings div form{
+  display: flex;
+}
+
+
+
 
 /* footer styles*/
 
@@ -538,7 +553,9 @@ footer {
   cursor: pointer;
   border-radius: 2%;
   margin-bottom: 13px;
+  margin-right: 10px;
 }
+
 
 /* styling of the div used to hold overlay buttons */
 
@@ -554,6 +571,11 @@ footer {
   font-size: 1.11em;
   transition: 0.3s;
 }
+
+.flexcolum{
+  flex-direction: row;
+}
+
 
 /* chancing the style of buttons when screen is smaller */
 @media screen and (max-width: 800px){
@@ -571,6 +593,16 @@ footer {
   }
   #colourchange{
     margin-right: 7px;
+    width: 140px;
+  }
+  .flexcolum{
+    display: flex;
+    flex-direction: column !important;
+  }
+  
+  .flexrow{
+    display: flex;
+    flex-direction: row;
   }
 
 }
