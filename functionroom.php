@@ -27,7 +27,7 @@ include "assets/inc/header.php";
                     enim. Id aliquet risus feugiat in. Turpis egestas maecenas pharetra convallis posuere morbi</p>
                 </div>
             </div>
-            <!-- div stores all content that belongs second room -->
+            <!-- div stores all content that belongs t -->
             <div class="imgdiv" id= "imgrightdiv">
             <div class="roomtxt">
                     <h1>Training</h1>

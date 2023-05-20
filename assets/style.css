@@ -228,17 +228,12 @@ footer {
     font-size: 1.9em;
   }
   .footersize{
-    height: 120px !important;
+    height: 140px !important;
   }
   footer{
     height: 110px;
   }
 }
-
-@media screen and (max-width: 400px){
-
-}
-
 
 /* Google Maps styling*/
 
@@ -277,7 +272,7 @@ footer {
 
 }
 
-/* reisizing text basied on media */
+/* resizing text based on media */
 
 @media screen and (max-width: 850px) {
   .title{
@@ -311,7 +306,7 @@ footer {
 
 /* Rooms page & function room page */
 
-/* images on page */
+/* images on pages*/
 
 
 .img{
@@ -574,6 +569,11 @@ footer {
 
 .flexcolum{
   flex-direction: row;
+  display: flex;
+}
+
+.flexrow{
+  display: flex;
 }
 
 
@@ -590,10 +590,15 @@ footer {
   }
   .overlaybutton{
     margin-right: 7px;
+    font-size: 0.8em !important;
+    width: 100px;
+    height: 30px;
   }
   #colourchange{
     margin-right: 7px;
-    width: 140px;
+    width: 101px;
+    height: 39px;
+    margin-top: -4px;
   }
   .flexcolum{
     display: flex;
@@ -601,10 +606,24 @@ footer {
   }
   
   .flexrow{
-    display: flex;
     flex-direction: row;
   }
 
+  #footercontent{
+    margin-top: -10px;
+  }
+
+  #overlaysettings div form{
+    margin-bottom: -10px;
+  }
+
+}
+/* styling for text on smaller screens  */
+
+@media screen and (max-width: 353px){
+  .footertext{
+    font-size: 0.7em;
+  }
 }
 
 
@@ -652,7 +671,7 @@ footer {
   position: relative;
   display: inline-block;
 }
-
+/* chancing the style of elements when screen is smaller */
 @media (max-width: 970px){
   .servicetxt p{
   width: 82vw !important;
@@ -752,6 +771,7 @@ footer {
   transform: translateY(-0.25em);
   transition: 0.3s;
 }
+/* chancing the style of elements when screen is smaller */
 
 @media (max-width: 870px) {
   .smallimgdiv{

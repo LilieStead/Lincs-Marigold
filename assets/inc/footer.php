@@ -12,12 +12,14 @@
 
         <div>
           <form action="assets/proc/changestateprocess.php" method="post">
-            <button class="overlaybutton" onclick="toggleoverlay()">Save Overlay</button>
+            <!-- form to store session -->
+            <button class="overlaybutton" id="overlaysave" onclick="toggleoverlay()">Start Overlay</button>
             <input  id="colourchange" name="colour" onchange="changecolour()" type="color" value="#add8e6">
           </form>
         </div>
 
         <div class="flexrow">
+          <!-- form to delete the session -->
           <form action="assets/proc/sessionstopprocess.php" method = "post">
             <input class="overlaybutton" type="submit" value="stop overlay">
           </form>
@@ -123,15 +125,17 @@ function toggletext() {
 
 
 <?php
-
+// looks to see if the session is active 
 if(isset($_SESSION['overlaycolour'])){
 
   ?>
   <script>
-
+    // applys the overlay setting based on the session
     let overlaycolour = '<?php echo $_SESSION['overlaycolour'];?>';
     document.getElementById('overlay').style.display="block";
     document.getElementById('overlay').style.backgroundColor= overlaycolour;
+    // changes button for over once overlay is active
+    document.getElementById("overlaysave").innerHTML = "Save Overlay";
 
 
   </script>
@@ -139,7 +143,6 @@ if(isset($_SESSION['overlaycolour'])){
 
 }
 
-
 ?>
-
+<!-- END OF SESSION CHECK -->
 

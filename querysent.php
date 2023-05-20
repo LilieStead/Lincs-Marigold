@@ -8,6 +8,7 @@ include "assets/inc/header.php";
 
 
 <body>
+    <!-- div's used to center text in page -->
 <div class="center">
     <div id="querysent">
         <h1> Your query has been sent</h1>

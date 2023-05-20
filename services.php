@@ -1,6 +1,5 @@
 <?php session_start(); ?>
 <!DOCTYPE html>
-
 <?php
 include "assets/inc/head.php";
 include "assets/inc/header.php";

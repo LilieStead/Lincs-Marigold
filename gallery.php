@@ -9,12 +9,13 @@ include "assets/inc/header.php";
 <!-- used to select images -->
 <script>
     function changeimage(selectedimg){
+      // find element with the id of expandedimage
       var expandimg = document.getElementById("expandedimage");
-
+      // chnage image location of larger image to selected image
       expandimg.src = selectedimg.src;
     }
 </script>
-
+<!-- END OF IMAGE SELECT -->
 
 
 
@@ -31,6 +32,7 @@ include "assets/inc/header.php";
       </div>
       <!-- all images  -->
     <div id="smallimg">
+            <!-- div used on each image to style each image individually -->
             <div class="smallimgdiv">
                 <img src="assets/img/gallery2.jpg" class="galleryimgsmall" onclick="changeimage(this)">
             </div>
