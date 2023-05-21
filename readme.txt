@@ -1,1 +1,1 @@
-Please name the datababse 'lincsmarigold' when using XAMPP.
+Please name the database 'lincsmarigold' when using XAMPP.
