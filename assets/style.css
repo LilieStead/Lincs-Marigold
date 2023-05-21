@@ -43,9 +43,11 @@ f2f3ae
 1F1E1E
 3E3C3C
 878282
+cf7625
+3E3C3C
 */
 
- /* header style */
+ /* header and header links style */
 
  header {
   overflow: hidden;
@@ -69,7 +71,7 @@ f2f3ae
   font-family: title;
   font-size: 2.5em;
   line-height: 40px;
-  color: #d58936;
+  color: #cf7625;
 }
 .headerright p{
   color: #FAF9F6;
@@ -87,6 +89,9 @@ f2f3ae
   float: right;
   margin-top: 10px;
 }
+
+/* sizing header based on size of screen */
+
 @media screen and (max-width: 1462px) {
   .headerright{
     margin-top: 0;
@@ -94,7 +99,6 @@ f2f3ae
 }
 
 
-/* hanging header based on size of screen */
 
 @media screen and (max-width: 850px) {
   .header a {
@@ -130,6 +134,8 @@ f2f3ae
   width: 100%;
   max-height: 50vh;
 }
+
+/* overlay added on image so test is readable */
 
 #imgoverlay{
   background-color: rgba(62, 60, 60, 0.4);
@@ -171,10 +177,6 @@ f2f3ae
 
 }
 
-#overlaysettings div form{
-  display: flex;
-}
-
 
 
 
@@ -194,7 +196,7 @@ footer {
 
 
 .footertext{
-  color: #878282;
+  color: #DDD9D9;
   font-family: smalltxt;
   text-align: center;
   padding-top: 8px;
@@ -204,7 +206,7 @@ footer {
 
 #aboutinfo h1{
   font-family: title;
-  color: #d58936;
+  color: #cf7625;
   text-decoration: underline;
   font-size: 2em;
   text-align: center;
@@ -255,7 +257,7 @@ footer {
 .title{
   font-family: title;
   font-size: 2.3em;
-  color: #d58936;
+  color: #cf7625;
   text-align: center;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -264,7 +266,7 @@ footer {
 /*Small snippets of information */
 
 .smalltxt{
-  color: #878282;
+  color: #3E3C3C ;
   font-size: 1.1em;
   text-align: center;
   padding-bottom: 17px;
@@ -329,7 +331,7 @@ footer {
 .imgdiv h1{
   font-family: title;
   text-align: center;
-  color: #d58936;
+  color: #cf7625;
 }
 
 .roomtxt{
@@ -501,7 +503,7 @@ footer {
 #contactform label{
   font-family: title;
   font-size: 1.6em;
-  color: #d58936;
+  color: #cf7625;
 }
 
 /* overlay settings */ 
@@ -567,6 +569,13 @@ footer {
   transition: 0.3s;
 }
 
+
+
+#overlaysettings div form{
+  display: flex;
+}
+
+/* used to stack overlay buttons when screen is smaller */
 .flexcolum{
   flex-direction: row;
   display: flex;
@@ -662,7 +671,7 @@ footer {
 
 .servicetxt h1{
   font-family: title;
-  color: #d58936;
+  color: #cf7625;
 }
 
 

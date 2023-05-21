@@ -1,3 +1,4 @@
+<!-- session used to store overlay -->
 <?php session_start(); ?>
 <!DOCTYPE html>
 <?php

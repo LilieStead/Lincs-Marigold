@@ -1,4 +1,7 @@
 
+<!-- header used on all pages -->
+
+
 <!-- used to allow for overlay to cover the whole page -->
 <div id="overlay"></div>
 <!-- stores all in header -->

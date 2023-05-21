@@ -1,3 +1,4 @@
+<!-- session used to store overlay -->
 <?php session_start(); ?>
 <!DOCTYPE html>
 
@@ -16,10 +17,6 @@ include "assets/inc/header.php";
     }
 </script>
 <!-- END OF IMAGE SELECT -->
-
-
-
-
 
 <body>
   <div>

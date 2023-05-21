@@ -1,4 +1,4 @@
-
+<!-- footer used on all pages -->
 <footer id=footerid onload ="checkcookies()">
     <!-- used to show copyright information  -->
   <p class = "footertext" > &copy;<span id="copyrightyear"></span> Lincs Marigold. All Rights Reserved </p>
@@ -12,7 +12,7 @@
 
         <div>
           <form action="assets/proc/changestateprocess.php" method="post">
-            <!-- form to store session -->
+            <!-- form to store session and send information to session -->
             <button class="overlaybutton" id="overlaysave" onclick="toggleoverlay()">Start Overlay</button>
             <input  id="colourchange" name="colour" onchange="changecolour()" type="color" value="#add8e6">
           </form>
@@ -23,6 +23,7 @@
           <form action="assets/proc/sessionstopprocess.php" method = "post">
             <input class="overlaybutton" type="submit" value="stop overlay">
           </form>
+          <!-- user clicks to make the text larger -->
           <button class="overlaybutton" onclick="toggletext()">Text size</button>
         </div>
           
@@ -89,7 +90,7 @@ function toggletext() {
   const paragraphs = document.querySelectorAll("p");
   var footer = document.querySelector("#footerid");
 
-  // if text is false chnage to true 
+  // if text is false change to true 
   if (!textsize) {
     textsize = true;
     footer.classList.add("footersize");

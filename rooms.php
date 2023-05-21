@@ -1,3 +1,4 @@
+<!-- session used to store overlay -->
 <?php session_start(); ?>
 <!DOCTYPE html>
 
@@ -45,7 +46,7 @@ include "assets/inc/header.php";
             </div>
             <!-- div stores all content that belongs third room -->
             <div class="imgdiv">
-                <img class="img"src="assets/img/room3.jpg" alt="basic hotel room"> 
+                <img class="img"src="assets/img/room3.jpg" alt="Luxury hotel room"> 
                 <div class="roomtxt">
                     <h1>Luxury rooms</h1>
                     <p class="smalltxt txtleft" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

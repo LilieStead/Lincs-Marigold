@@ -1,3 +1,5 @@
+
+<!-- head used on pages -->
 <head>
     <html lang="en">
 
